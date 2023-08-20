@@ -2,8 +2,17 @@ import Home from "../views/Home.vue";
 import About from "../views/About.vue";
 
 const routes = [
-  { path: '/', component: Home },
-  { path: '/about', component: About }
+  {
+    path: '/',
+    component: Home,
+  },
+  {
+    path: '/about',
+    component: About,
+    meta: {
+      layout: 'auth'
+    }
+  }
 ];
 
 export { routes }
