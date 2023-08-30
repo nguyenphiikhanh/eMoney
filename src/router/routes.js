@@ -1,18 +1,18 @@
-import Home from "../views/Home.vue";
-import About from "../views/About.vue";
+import Register from "@/views/Register.vue";
+import Index from "@/views/Index.vue";
 
 const routes = [
   {
     path: '/',
-    component: Home,
+    component: Index,
   },
   {
-    path: '/about',
-    component: About,
+    path: '/register',
+    component: Register,
     meta: {
       layout: 'auth'
     }
-  }
+  },
 ];
 
 export { routes }

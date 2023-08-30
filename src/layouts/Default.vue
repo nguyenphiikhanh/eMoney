@@ -1,5 +1,5 @@
 <template>
-  <h1 class="mt-8">Default layout</h1>
+  <slot/>
 </template>
 
 <script setup>
