@@ -1,9 +1,15 @@
 <template>
+    <NavigationBrand />
   <slot />
 </template>
 
-<script setup>
-
+<script>
+import NavigationBrand from "@/Components/NavigationBrand.vue";
+export default {
+    components: {
+        NavigationBrand,
+    }
+}
 </script>
 
 <style scoped>
