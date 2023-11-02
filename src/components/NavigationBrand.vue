@@ -7,7 +7,7 @@
       </div>
       <div class="text-center mt-12">
           <h1 class="font-bold text-xl text-dark">
-              Best way to saving Your Money!
+              Tạo mã QR pay một cách nhanh chóng!
           </h1>
       </div>
   </div>
